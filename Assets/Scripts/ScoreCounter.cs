@@ -2,13 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
 
 public class ScoreCounter : MonoBehaviour
 {
     public static ScoreCounter instance;
     public Text scoreText;
 
-    int score = 0;
+    public static int score = 0;    
 
     private void Awake() {
         instance = this;
@@ -33,5 +35,9 @@ public class ScoreCounter : MonoBehaviour
 
     public void EndGame(){
         scoreText.text = "The End! Score: " + score.ToString();
+    }
+
+    public int returnScore(){
+        return score;
     }
 }
