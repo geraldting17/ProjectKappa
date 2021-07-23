@@ -12,6 +12,14 @@ public class GameOverScript : MonoBehaviour
 
     public TextMeshProUGUI GameOverScoreText;//public = [SerializeField] private
 
+    private void Awake() {
+        instance = this;
+    }
+
+    private void Start() {
+        GameOverScoreText.text = "Game Over! Your Score is " + ScoreCounter.score.ToString(); 
+    }
+
     public void GameOverScore(){
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         GameOverScoreText.text = "Game Over! Your Score is " + ScoreCounter.score.ToString(); 

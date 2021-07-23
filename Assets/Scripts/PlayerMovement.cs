@@ -40,8 +40,7 @@ public class PlayerMovement : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
-        
+    {   
         //Rigidbody myBall = this.GetComponent<Rigidbody>();
         HorizontalInputs = Input.GetAxis("Horizontal") * 2;
 
@@ -74,8 +73,6 @@ public class PlayerMovement : MonoBehaviour
 					OnLandEvent.Invoke();
             return;
         }
-
-        
 
         if (JumpCounter){
                 JumpCounter = false;
@@ -117,7 +114,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (other.gameObject.layer == 8){
             ScoreCounter.instance.EndGame();
-            GameOverScript.instance.GameOverScore();
+            GameOverScript.instance.GameOverScore();//needed to attached game over script to player else game won't know which scene to go to next when trigger. 
         }
     }
 
