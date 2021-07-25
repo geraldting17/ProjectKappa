@@ -104,7 +104,6 @@ public class PlayerMovement : MonoBehaviour
     private void OnCollisionExit(Collision other) {
         onGround = false;
     }*/
-
     private void OnTriggerEnter(Collider other) {
         if (other.gameObject.layer == 7){
             Destroy(other.gameObject);
@@ -120,6 +119,12 @@ public class PlayerMovement : MonoBehaviour
         if (other.gameObject.layer == 9){
             ScoreCounter.instance.EndGame();
             GameOverScript.instance.GameOverScore();//needed to attached game over script to player else game won't know which scene to go to next when trigger. 
+        }
+
+        if (other.gameObject.layer == 10){
+            Destroy(other.gameObject);
+            Vector3 forceVector = new Vector3 (0,450,0);
+            myBall.AddForce (forceVector);
         }
     }
 
