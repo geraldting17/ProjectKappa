@@ -11,7 +11,7 @@ public class PlayerMovement : MonoBehaviour
 {
     public Transform GroundCheckTransform;
     private bool m_Grounded;            // Whether or not the player is grounded.
-
+    private bool isJumpBoost;
     public LayerMask playerMask;
     private bool JumpCounter;
     private float HorizontalInputs;
@@ -79,8 +79,15 @@ public class PlayerMovement : MonoBehaviour
                 m_Grounded = false;
                 onLanding();
                 //myBall.AddForce(Vector3 (0,10,0));
-                Vector3 forceVector = new Vector3 (0,350,0);
-                myBall.AddForce (forceVector);
+                if (isJumpBoost){
+                    JumpBoost();
+                    isJumpBoost = false;
+                }
+                else{
+                    Vector3 forceVector = new Vector3 (0,350,0);
+                    myBall.AddForce (forceVector);
+                }
+                
         }
 
         if (HorizontalInputs > 0 && !m_FacingRight)
@@ -123,11 +130,17 @@ public class PlayerMovement : MonoBehaviour
 
         if (other.gameObject.layer == 10){
             Destroy(other.gameObject);
-            Vector3 forceVector = new Vector3 (0,450,0);
-            myBall.AddForce (forceVector);
+            isJumpBoost = true;
+            //Vector3 forceVector = new Vector3 (0,450,0);
+            //myBall.AddForce (forceVector);
         }
     }
 
+
+    private void JumpBoost(){
+        Vector3 forceVector = new Vector3 (0,450,0);
+        myBall.AddForce (forceVector);
+    }
     private void Flip()
 	{
 		// Switch the way the player is labelled as facing.

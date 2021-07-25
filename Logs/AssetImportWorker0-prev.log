@@ -15,11 +15,11 @@ D:/Unity/UnityTutorial/ProjectKappa
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62815
+61752
 Successfully changed project path to: D:/Unity/UnityTutorial/ProjectKappa
 D:/Unity/UnityTutorial/ProjectKappa
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 42.76 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 42.94 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path D:/Unity/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -35,756 +35,173 @@ Initialize mono
 Mono path[0] = 'D:/Unity/2020.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Unity/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56008
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56440
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/2020.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/Unity/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001774 seconds.
+Registered in 0.001863 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 39.69 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 40.69 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.812 seconds
+- Completed reload, in  2.895 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004512 seconds.
+Registered in 0.004603 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.220 seconds
+- Completed reload, in  1.208 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1564 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 102.1 MB.
-System memory in use after: 101.8 MB.
+Unloading 1565 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.0 MB.
+System memory in use after: 102.7 MB.
 
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2020.
-Total: 2.633500 ms (FindLiveObjects: 0.203500 ms CreateObjectMapping: 0.062400 ms MarkObjects: 1.967100 ms  DeleteObjects: 0.399500 ms)
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2025.
+Total: 2.762700 ms (FindLiveObjects: 0.200200 ms CreateObjectMapping: 0.060900 ms MarkObjects: 2.109300 ms  DeleteObjects: 0.391300 ms)
 
 ========================================================================
 Received Import Request.
+  path: Assets/Game
+  artifactKey: Guid(b58572283dc33e44e8dc197f5c280d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game using Guid(b58572283dc33e44e8dc197f5c280d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a34502a957ee29e0cc7ab671f45ed0c') in 0.046064 seconds
+  Import took 0.086395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000450 seconds.
   path: Assets/Materials/New Material.mat
   artifactKey: Guid(bf7c7682e7825924295f8c189a7ff84d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/New Material.mat using Guid(bf7c7682e7825924295f8c189a7ff84d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a804ffb912cdda23fd719fdaebacd776') in 0.366791 seconds
-  Import took 0.370524 seconds .
+Start importing Assets/Materials/New Material.mat using Guid(bf7c7682e7825924295f8c189a7ff84d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c2913532e3dcfb487aa9053c5e95fa3') in 0.493349 seconds
+  Import took 0.505421 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 50.786919 seconds.
-  path: ProjectSettings/TagManager.asset
-  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f815fc18198feff0b4ecaa01739f6818') in 0.030688 seconds
-  Import took 0.035994 seconds .
+  Time since last request: 0.000189 seconds.
+  path: Assets/Game/LightingData.asset
+  artifactKey: Guid(59cc94d2de95b7d458c0c80b0939a2e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/LightingData.asset using Guid(59cc94d2de95b7d458c0c80b0939a2e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '049b029a6caa264dcebef79438910ad2') in 0.011448 seconds
+  Import took 0.046226 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 64.609536 seconds.
-  path: Assets/Prefabs/LavaFloor.prefab
-  artifactKey: Guid(72869891dc4f0864a87161ffc50f189e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/LavaFloor.prefab using Guid(72869891dc4f0864a87161ffc50f189e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5799e1506bdafefde28c8153e9af918') in 0.049000 seconds
-  Import took 0.052882 seconds .
+  Time since last request: 0.000223 seconds.
+  path: Assets/Game/ReflectionProbe-0.exr
+  artifactKey: Guid(c9b10b03bbda46b4887daf06bc550244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/ReflectionProbe-0.exr using Guid(c9b10b03bbda46b4887daf06bc550244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e989b3abf8bc1036d39b01e78791c076') in 0.189971 seconds
+  Import took 0.211049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.299418 seconds.
+  path: Assets/Prefabs/Materials
+  artifactKey: Guid(e8fd204f35f089a49b10259d26a0c375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Materials using Guid(e8fd204f35f089a49b10259d26a0c375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71f7b84e33077827ffa0d82266b9f084') in 0.014256 seconds
+  Import took 0.063692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.084732 seconds.
+  path: Assets/Prefabs/Materials/download.mat
+  artifactKey: Guid(4c3a2a324707be9488a484729187adb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Materials/download.mat using Guid(4c3a2a324707be9488a484729187adb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9736556fbf5fd58b5a741f5d10703434') in 0.019787 seconds
+  Import took 0.031368 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006238 seconds.
+Registered in 0.004425 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.157 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1475 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.0 MB.
+System memory in use after: 97.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2070.
+Total: 2.508300 ms (FindLiveObjects: 0.183200 ms CreateObjectMapping: 0.058900 ms MarkObjects: 1.892600 ms  DeleteObjects: 0.372600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004558 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.148 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1474 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 97.1 MB.
-System memory in use after: 96.8 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2064.
-Total: 2.939800 ms (FindLiveObjects: 0.222400 ms CreateObjectMapping: 0.053900 ms MarkObjects: 2.285300 ms  DeleteObjects: 0.376600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 174.073044 seconds.
-  path: Assets/Scripts/PlayerMovement.cs
-  artifactKey: Guid(febbc3f9f233d82468b51772f1bce82d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerMovement.cs using Guid(febbc3f9f233d82468b51772f1bce82d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '652a641d1ca1c54f91ac3062a9e5daab') in 0.012445 seconds
-  Import took 0.015645 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006325 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.128 seconds
+- Completed reload, in  1.108 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1474 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 97.1 MB.
-System memory in use after: 96.8 MB.
+Unloading 1475 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.0 MB.
+System memory in use after: 97.7 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2067.
-Total: 2.601600 ms (FindLiveObjects: 0.178600 ms CreateObjectMapping: 0.055500 ms MarkObjects: 1.944400 ms  DeleteObjects: 0.421900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 59.875746 seconds.
-  path: Assets/Prefabs/LavaFloor.prefab
-  artifactKey: Guid(72869891dc4f0864a87161ffc50f189e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/LavaFloor.prefab using Guid(72869891dc4f0864a87161ffc50f189e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '171bd0df4144bc877246777e7f3c5286') in 0.076834 seconds
-  Import took 0.080215 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004417 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.091 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1474 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 97.1 MB.
-System memory in use after: 96.9 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2071.
-Total: 2.676700 ms (FindLiveObjects: 0.182400 ms CreateObjectMapping: 0.050000 ms MarkObjects: 2.045900 ms  DeleteObjects: 0.397400 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2073.
+Total: 2.627700 ms (FindLiveObjects: 0.188200 ms CreateObjectMapping: 0.058100 ms MarkObjects: 1.993300 ms  DeleteObjects: 0.387300 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 73.685127 seconds.
+  Time since last request: 488.954668 seconds.
   path: Assets/Game.unity
   artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0b70d7cb8e6db8e36c96a255117c550') in 0.132330 seconds
-  Import took 0.135917 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 358.018782 seconds.
-  path: Assets/Stylized Lava Texture
-  artifactKey: Guid(dcfc9be837bc15444a799a2b885e4ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Lava Texture using Guid(dcfc9be837bc15444a799a2b885e4ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e802ebcd74b9745e35cb8d3b84933ce4') in 0.014224 seconds
-  Import took 0.019553 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.419013 seconds.
-  path: Assets/Stylized Lava Texture/Materials
-  artifactKey: Guid(855350d72edd5b546aba24877b32789a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Lava Texture/Materials using Guid(855350d72edd5b546aba24877b32789a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '244a5c848d8cc778fa58a73bb8f1566c') in 0.014716 seconds
-  Import took 0.020383 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.029042 seconds.
-  path: Assets/Stylized Lava Texture/Materials/Stylize_Lava.mat
-  artifactKey: Guid(9418a5fcbafe84543998bd7c831a9ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Lava Texture/Materials/Stylize_Lava.mat using Guid(9418a5fcbafe84543998bd7c831a9ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e3884f86edf9b1a1ff11be9fe2354cb') in 0.512561 seconds
-  Import took 0.516410 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000320 seconds.
-  path: Assets/Stylized Lava Texture/Materials/Stylize_Lava_diffuse.mat
-  artifactKey: Guid(3b3ab2ec86ef45c48b01abe26983a811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Lava Texture/Materials/Stylize_Lava_diffuse.mat using Guid(3b3ab2ec86ef45c48b01abe26983a811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a190bced7e85ff4f3ac70319a6c9b77') in 0.138811 seconds
-  Import took 0.142408 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/Stylized Lava Texture/Materials/Stylize_Lava.mat
-  artifactKey: Guid(9418a5fcbafe84543998bd7c831a9ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Lava Texture/Materials/Stylize_Lava.mat using Guid(9418a5fcbafe84543998bd7c831a9ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e3884f86edf9b1a1ff11be9fe2354cb') in 0.029979 seconds
-  Import took 0.033669 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.280213 seconds.
-  path: Assets/Stylized Lava Texture/Textures/Vol_35_3_Base_Color.tga
-  artifactKey: Guid(dfc1785e05281294d878cde6894aa955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Lava Texture/Textures/Vol_35_3_Base_Color.tga using Guid(dfc1785e05281294d878cde6894aa955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac23a48d7e3b48beaf3be14de373e811') in 0.032044 seconds
-  Import took 0.035955 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.813423 seconds.
-  path: Assets/Stylized Lava Texture/Textures
-  artifactKey: Guid(70867da6bf5f23744b22677a580e0ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Lava Texture/Textures using Guid(70867da6bf5f23744b22677a580e0ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95989f510de77030a5ede8cd9992586e') in 0.148194 seconds
-  Import took 0.154592 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.063306 seconds.
-  path: Assets/Stylized Lava Texture/Textures/Vol_35_3_Ambient_Occlusion.tga
-  artifactKey: Guid(c6d0d08a7a14a45418caf59d9687df8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Lava Texture/Textures/Vol_35_3_Ambient_Occlusion.tga using Guid(c6d0d08a7a14a45418caf59d9687df8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa3a737c49d94beba295a360cba2f416') in 0.014731 seconds
-  Import took 0.017895 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000322 seconds.
-  path: Assets/Stylized Lava Texture/Textures/Vol_35_3_Normal.tga
-  artifactKey: Guid(6d3280b47426c8a4e89df1eabd45c33a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Lava Texture/Textures/Vol_35_3_Normal.tga using Guid(6d3280b47426c8a4e89df1eabd45c33a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4197d123706261d4bb5c2fd296d5e5c3') in 0.023450 seconds
-  Import took 0.027016 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000322 seconds.
-  path: Assets/Stylized Lava Texture/Textures/Vol_35_3_Height.tga
-  artifactKey: Guid(b54216825a0a75045ae1d36295ceecd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Lava Texture/Textures/Vol_35_3_Height.tga using Guid(b54216825a0a75045ae1d36295ceecd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b25b0afedc747da52551bb4797fa8c16') in 0.014680 seconds
-  Import took 0.018199 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000303 seconds.
-  path: Assets/Stylized Lava Texture/Textures/Vol_35_3_Roughness.tga
-  artifactKey: Guid(ee6d998e65365904ba2f9fa70273b869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Lava Texture/Textures/Vol_35_3_Roughness.tga using Guid(ee6d998e65365904ba2f9fa70273b869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a722c86a962fc4832a00f8f3b15bc172') in 0.016343 seconds
-  Import took 0.020964 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000445 seconds.
-  path: Assets/Stylized Lava Texture/Textures/Vol_35_3_Emissive.tga
-  artifactKey: Guid(fa33609267bcdfb41ac03c9fd4b56b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Lava Texture/Textures/Vol_35_3_Emissive.tga using Guid(fa33609267bcdfb41ac03c9fd4b56b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88e923e8d50f7e075ef9e2183e100d82') in 0.016764 seconds
-  Import took 0.020807 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002385 seconds.
-  path: Assets/Stylized Lava Texture/Textures/Vol_35_3_Roughness.tga
-  artifactKey: Guid(ee6d998e65365904ba2f9fa70273b869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Lava Texture/Textures/Vol_35_3_Roughness.tga using Guid(ee6d998e65365904ba2f9fa70273b869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a722c86a962fc4832a00f8f3b15bc172') in 0.015551 seconds
-  Import took 0.019824 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.081172 seconds.
-  path: Assets/Stylized Lava Texture/Materials/Vol_35_3_Base_Color.mat
-  artifactKey: Guid(fda1eaaed9316de4da6a8249a646bb73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Lava Texture/Materials/Vol_35_3_Base_Color.mat using Guid(fda1eaaed9316de4da6a8249a646bb73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aadee2082e632f2578103377a555bce4') in 0.015488 seconds
-  Import took 0.018687 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.131807 seconds.
-  path: Assets/Stylized Lava Texture/Scene
-  artifactKey: Guid(35c51be547b1b5149808eae4a6922fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Lava Texture/Scene using Guid(35c51be547b1b5149808eae4a6922fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ae147fe69a04e4347a157c3f672dd95') in 0.025838 seconds
-  Import took 0.030526 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.896628 seconds.
-  path: Assets/Prefabs/LavaFloor.prefab
-  artifactKey: Guid(72869891dc4f0864a87161ffc50f189e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/LavaFloor.prefab using Guid(72869891dc4f0864a87161ffc50f189e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee97aa91e0beeffbe3148fd143ee1808') in 0.053120 seconds
-  Import took 0.058644 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.481688 seconds.
-  path: Assets/Prefabs/LavaFloor.prefab
-  artifactKey: Guid(72869891dc4f0864a87161ffc50f189e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/LavaFloor.prefab using Guid(72869891dc4f0864a87161ffc50f189e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2f9050b5775f4f2f485faf95dcd1835') in 0.023304 seconds
-  Import took 0.026589 seconds .
+Start importing Assets/Game.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8064394fbbbceba0bdb835ee16f2907') in 0.059112 seconds
+  Import took 0.062545 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004397 seconds.
+Registered in 0.004569 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.137 seconds
+- Completed reload, in  1.158 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1474 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 97.9 MB.
-System memory in use after: 97.6 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2081.
-Total: 2.986100 ms (FindLiveObjects: 0.206600 ms CreateObjectMapping: 0.058400 ms MarkObjects: 2.300700 ms  DeleteObjects: 0.419300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004346 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.094 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1475 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 97.9 MB.
-System memory in use after: 97.6 MB.
+System memory in use before: 98.1 MB.
+System memory in use after: 97.8 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2085.
-Total: 2.986100 ms (FindLiveObjects: 0.195200 ms CreateObjectMapping: 0.052300 ms MarkObjects: 2.271200 ms  DeleteObjects: 0.466000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 107.351224 seconds.
-  path: Assets/SimpleCloudSystem by RM
-  artifactKey: Guid(5ab630b5dc2ab4d4c881c0ee6c5d9ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleCloudSystem by RM using Guid(5ab630b5dc2ab4d4c881c0ee6c5d9ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1e9d0ec9071aac75aac90744c13e805') in 0.008937 seconds
-  Import took 0.012094 seconds .
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2076.
+Total: 2.567500 ms (FindLiveObjects: 0.202100 ms CreateObjectMapping: 0.061800 ms MarkObjects: 1.889300 ms  DeleteObjects: 0.413200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001518 seconds.
-  path: Assets/SimpleCloudSystem by RM
-  artifactKey: Guid(5ab630b5dc2ab4d4c881c0ee6c5d9ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleCloudSystem by RM using Guid(5ab630b5dc2ab4d4c881c0ee6c5d9ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1e9d0ec9071aac75aac90744c13e805') in 0.002512 seconds
-  Import took 0.006004 seconds .
+  Time since last request: 115.252282 seconds.
+  path: Assets/Game.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f538d91e960f57f4f10a0517b9e85f4c') in 0.024808 seconds
+  Import took 0.028063 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.062974 seconds.
-  path: Assets/SimpleCloudSystem by RM/CloudSystem.prefab
-  artifactKey: Guid(36ebb9a9e2bbff843b92cc95e0cdc972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleCloudSystem by RM/CloudSystem.prefab using Guid(36ebb9a9e2bbff843b92cc95e0cdc972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd037eae86dd0590ea68d07e6db68de9e') in 0.127849 seconds
-  Import took 0.131724 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.420035 seconds.
-  path: Assets/SimpleCloudSystem by RM/Clouds
-  artifactKey: Guid(2297d4dfd057446429a6685f378622fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleCloudSystem by RM/Clouds using Guid(2297d4dfd057446429a6685f378622fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ad42130dbe7f609af39823a6cccabba') in 0.012381 seconds
-  Import took 0.016597 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.265088 seconds.
-  path: Assets/SimpleCloudSystem by RM/Clouds/DarkClouds_Materials
-  artifactKey: Guid(a4f673c32fc57cb4c88f2280f492b5a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleCloudSystem by RM/Clouds/DarkClouds_Materials using Guid(a4f673c32fc57cb4c88f2280f492b5a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7245751d918feef117f32af2b9044e50') in 0.011883 seconds
-  Import took 0.016150 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.973428 seconds.
-  path: Assets/SimpleCloudSystem by RM/Clouds/SunnyClouds_Materials
-  artifactKey: Guid(6322001f02b5dcc4d89e40503546592b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleCloudSystem by RM/Clouds/SunnyClouds_Materials using Guid(6322001f02b5dcc4d89e40503546592b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c8a1b2a2c5255ced71fb175577ec74e') in 0.011837 seconds
-  Import took 0.016858 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.182872 seconds.
-  path: Assets/SimpleCloudSystem by RM/Clouds/SunnyClouds_Materials/S_Cloud1.mat
-  artifactKey: Guid(737f3df95e8407a4c800dab3319303a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleCloudSystem by RM/Clouds/SunnyClouds_Materials/S_Cloud1.mat using Guid(737f3df95e8407a4c800dab3319303a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e41ad2e13ffac77992fc0d7ecfa1e8c1') in 0.038609 seconds
-  Import took 0.043243 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000297 seconds.
-  path: Assets/SimpleCloudSystem by RM/Clouds/SunnyClouds_Materials/S_Cloud8.mat
-  artifactKey: Guid(05e2f62c917c6b14485ae0a5a2d906a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleCloudSystem by RM/Clouds/SunnyClouds_Materials/S_Cloud8.mat using Guid(05e2f62c917c6b14485ae0a5a2d906a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c95936c3122762ab3447da526be329e') in 0.013636 seconds
-  Import took 0.016542 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000392 seconds.
-  path: Assets/SimpleCloudSystem by RM/Clouds/SunnyClouds_Materials/S_Cloud7.mat
-  artifactKey: Guid(63e631b9dcf375e40950e538ef1370b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleCloudSystem by RM/Clouds/SunnyClouds_Materials/S_Cloud7.mat using Guid(63e631b9dcf375e40950e538ef1370b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c5f487352dccb63a1667b88dc6d6bf7') in 0.015886 seconds
-  Import took 0.019419 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000327 seconds.
-  path: Assets/SimpleCloudSystem by RM/Clouds/SunnyClouds_Materials/S_Cloud5.mat
-  artifactKey: Guid(18b93a545d857bc4188a4c36cdf48283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleCloudSystem by RM/Clouds/SunnyClouds_Materials/S_Cloud5.mat using Guid(18b93a545d857bc4188a4c36cdf48283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '064688d6d7f3b6239673c6d48744fdba') in 0.015194 seconds
-  Import took 0.018282 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000322 seconds.
-  path: Assets/SimpleCloudSystem by RM/Clouds/SunnyClouds_Materials/S_Cloud6.mat
-  artifactKey: Guid(0b7f452ca19bbf44ebeab4595b3b5f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleCloudSystem by RM/Clouds/SunnyClouds_Materials/S_Cloud6.mat using Guid(0b7f452ca19bbf44ebeab4595b3b5f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90cd6058421599c1134f35a8ceb1d2d5') in 0.015878 seconds
-  Import took 0.018848 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000307 seconds.
-  path: Assets/SimpleCloudSystem by RM/Clouds/SunnyClouds_Materials/S_Cloud4.mat
-  artifactKey: Guid(9ffe9e5b9218d0749952c1a374bcc834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleCloudSystem by RM/Clouds/SunnyClouds_Materials/S_Cloud4.mat using Guid(9ffe9e5b9218d0749952c1a374bcc834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97f6070290169d235d7780c516be30d8') in 0.015046 seconds
-  Import took 0.018875 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000343 seconds.
-  path: Assets/SimpleCloudSystem by RM/Clouds/SunnyClouds_Materials/S_Cloud2.mat
-  artifactKey: Guid(19a9b1c1b060cab4eaae9964b1bf8901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleCloudSystem by RM/Clouds/SunnyClouds_Materials/S_Cloud2.mat using Guid(19a9b1c1b060cab4eaae9964b1bf8901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ffe25eb255dfa1e3dc652ceb8870c7f') in 0.016752 seconds
-  Import took 0.020518 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.761650 seconds.
-  path: Assets/SimpleCloudSystem by RM/Clouds/SunnyClouds_Materials/SunnyClouds_Textures
-  artifactKey: Guid(fbce3a3b9e177b64094209753c6bffba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleCloudSystem by RM/Clouds/SunnyClouds_Materials/SunnyClouds_Textures using Guid(fbce3a3b9e177b64094209753c6bffba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ab8ade864620eb9a287888673d554ae') in 0.012302 seconds
-  Import took 0.017046 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.124769 seconds.
-  path: Assets/SimpleCloudSystem by RM/Clouds/SunnyClouds_Materials/SunnyClouds_Textures/S_Cloud1.png
-  artifactKey: Guid(5bc09f2f63b778d4d97a0dd6291f527a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleCloudSystem by RM/Clouds/SunnyClouds_Materials/SunnyClouds_Textures/S_Cloud1.png using Guid(5bc09f2f63b778d4d97a0dd6291f527a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7e999f8cd1a67fd7495a96a8c124d06') in 0.111720 seconds
-  Import took 0.115633 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000331 seconds.
-  path: Assets/SimpleCloudSystem by RM/Clouds/SunnyClouds_Materials/SunnyClouds_Textures/S_Cloud4.png
-  artifactKey: Guid(7c12ff35c08d3564bae9ab5fc49388e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleCloudSystem by RM/Clouds/SunnyClouds_Materials/SunnyClouds_Textures/S_Cloud4.png using Guid(7c12ff35c08d3564bae9ab5fc49388e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e17c295944b8b66f69679facd99a20c') in 0.011585 seconds
-  Import took 0.015043 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000277 seconds.
-  path: Assets/SimpleCloudSystem by RM/Clouds/SunnyClouds_Materials/SunnyClouds_Textures/S_Cloud7.png
-  artifactKey: Guid(9df31aba23c2752409d951335955b3a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleCloudSystem by RM/Clouds/SunnyClouds_Materials/SunnyClouds_Textures/S_Cloud7.png using Guid(9df31aba23c2752409d951335955b3a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b0a05bca1b71861e6f8daa0d45ce3bd') in 0.013196 seconds
-  Import took 0.016741 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/SimpleCloudSystem by RM/Clouds/SunnyClouds_Materials/SunnyClouds_Textures/S_Cloud8.png
-  artifactKey: Guid(c079a4ede892cc449b94278faeac84f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleCloudSystem by RM/Clouds/SunnyClouds_Materials/SunnyClouds_Textures/S_Cloud8.png using Guid(c079a4ede892cc449b94278faeac84f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cc8d50b7d6a9ca1210a00e003a1b6cc') in 0.013400 seconds
-  Import took 0.016663 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000330 seconds.
-  path: Assets/SimpleCloudSystem by RM/Clouds/SunnyClouds_Materials/SunnyClouds_Textures/S_Cloud6.png
-  artifactKey: Guid(94fbf9cf945abe54e8d6962352b88fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleCloudSystem by RM/Clouds/SunnyClouds_Materials/SunnyClouds_Textures/S_Cloud6.png using Guid(94fbf9cf945abe54e8d6962352b88fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a64e7c645c0944272538decf00a2c7f2') in 0.013958 seconds
-  Import took 0.017557 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/SimpleCloudSystem by RM/Clouds/SunnyClouds_Materials/SunnyClouds_Textures/S_Cloud5.png
-  artifactKey: Guid(4b65c37b775d88043bf3539e85489253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleCloudSystem by RM/Clouds/SunnyClouds_Materials/SunnyClouds_Textures/S_Cloud5.png using Guid(4b65c37b775d88043bf3539e85489253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88f67a219fecd498f28c8b99fe0b7298') in 0.013448 seconds
-  Import took 0.016711 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000326 seconds.
-  path: Assets/SimpleCloudSystem by RM/Clouds/SunnyClouds_Materials/SunnyClouds_Textures/S_Cloud2.png
-  artifactKey: Guid(7863d6eca4490d84da6bd2db72595ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleCloudSystem by RM/Clouds/SunnyClouds_Materials/SunnyClouds_Textures/S_Cloud2.png using Guid(7863d6eca4490d84da6bd2db72595ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c820f38c9242e609b30701a112bee03c') in 0.013040 seconds
-  Import took 0.016053 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.062326 seconds.
-  path: Assets/SimpleCloudSystem by RM/SceneComponents
-  artifactKey: Guid(5dbb6585e4f225e4ab36d5c7041c307d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleCloudSystem by RM/SceneComponents using Guid(5dbb6585e4f225e4ab36d5c7041c307d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b335cbe3451146a4fdff7e5a0c431d87') in 0.010844 seconds
-  Import took 0.015335 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.912677 seconds.
-  path: Assets/SimpleCloudSystem by RM/SceneComponents/LABELS
-  artifactKey: Guid(9dc3543e4ff1bdf4cb5566907da4aa87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleCloudSystem by RM/SceneComponents/LABELS using Guid(9dc3543e4ff1bdf4cb5566907da4aa87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbd56975784a6d3c0e5e489ef7650cd5') in 0.015691 seconds
-  Import took 0.021491 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.100908 seconds.
-  path: Assets/SimpleCloudSystem by RM/SceneComponents/LABELS/LABEL1.png
-  artifactKey: Guid(9c2e403b28a50f54e8cf73b92388d311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleCloudSystem by RM/SceneComponents/LABELS/LABEL1.png using Guid(9c2e403b28a50f54e8cf73b92388d311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de61ff8b137ac4a456284b5e00f4f3e9') in 0.015106 seconds
-  Import took 0.018819 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000340 seconds.
-  path: Assets/SimpleCloudSystem by RM/SceneComponents/LABELS/LABEL4.png
-  artifactKey: Guid(d285f29c83049994eb608bc1e7339280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleCloudSystem by RM/SceneComponents/LABELS/LABEL4.png using Guid(d285f29c83049994eb608bc1e7339280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0fe4a1abedbfd4302bbe99eb4b76241') in 0.013404 seconds
-  Import took 0.016450 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000352 seconds.
-  path: Assets/SimpleCloudSystem by RM/SceneComponents/LABELS/LABEL3.png
-  artifactKey: Guid(8dca7551a95514e43ab652411b4226e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleCloudSystem by RM/SceneComponents/LABELS/LABEL3.png using Guid(8dca7551a95514e43ab652411b4226e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17d8e9bd9a1cc6cacc8d08db926740fc') in 0.012740 seconds
-  Import took 0.016354 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000349 seconds.
-  path: Assets/SimpleCloudSystem by RM/SceneComponents/LABELS/LABEL2.png
-  artifactKey: Guid(f0a5a86e1c834df42a6eec3c39ad79e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleCloudSystem by RM/SceneComponents/LABELS/LABEL2.png using Guid(f0a5a86e1c834df42a6eec3c39ad79e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10b53e5481430d7c569c6397c8d542b2') in 0.013311 seconds
-  Import took 0.016990 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.319798 seconds.
-  path: Assets/SimpleCloudSystem by RM/SceneComponents/Landscape
-  artifactKey: Guid(021b8588cc0069f4182baf164807b5f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleCloudSystem by RM/SceneComponents/Landscape using Guid(021b8588cc0069f4182baf164807b5f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3afe29eb75e7411fe37bd47c0cac560') in 0.010079 seconds
-  Import took 0.013738 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.102155 seconds.
-  path: Assets/SimpleCloudSystem by RM/SceneComponents/Landscape/Landscape.dae
-  artifactKey: Guid(4ff8154442e250f428e34a7a03b9c4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleCloudSystem by RM/SceneComponents/Landscape/Landscape.dae using Guid(4ff8154442e250f428e34a7a03b9c4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5af6bc1b2397e0f4ecd84a7439cdd694') in 0.270014 seconds
-  Import took 0.273170 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000313 seconds.
-  path: Assets/SimpleCloudSystem by RM/SceneComponents/Landscape/Landscape.prefab
-  artifactKey: Guid(70b369158338e174ab03d5e5580d610d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleCloudSystem by RM/SceneComponents/Landscape/Landscape.prefab using Guid(70b369158338e174ab03d5e5580d610d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62a7f9403bf02b39448f4d844e85febf') in 0.280571 seconds
-  Import took 0.283499 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000283 seconds.
-  path: Assets/SimpleCloudSystem by RM/SceneComponents/Landscape/Landscape_N.png
-  artifactKey: Guid(1bfd160738ef57241a5ded6ff59d07da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleCloudSystem by RM/SceneComponents/Landscape/Landscape_N.png using Guid(1bfd160738ef57241a5ded6ff59d07da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db48d3bf37ae573113e5837574bcecc6') in 0.015450 seconds
-  Import took 0.018392 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000295 seconds.
-  path: Assets/SimpleCloudSystem by RM/SceneComponents/Landscape/Landscape_D.png
-  artifactKey: Guid(27451811a3f0be54a9673effd9e4ff04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleCloudSystem by RM/SceneComponents/Landscape/Landscape_D.png using Guid(27451811a3f0be54a9673effd9e4ff04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29757c028ff32876b47fc7a60a7ae5c7') in 0.014750 seconds
-  Import took 0.017912 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.388464 seconds.
-  path: Assets/SimpleCloudSystem by RM/SceneComponents/Landscape/Materials
-  artifactKey: Guid(a621c6b6335637547a32d11a67924dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleCloudSystem by RM/SceneComponents/Landscape/Materials using Guid(a621c6b6335637547a32d11a67924dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0944d6e4a6f59b241c54d5dbb724363') in 0.012993 seconds
-  Import took 0.018492 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.090750 seconds.
-  path: Assets/SimpleCloudSystem by RM/SceneComponents/Landscape/Materials/Landscape1.mat
-  artifactKey: Guid(43952d4e7a708b0498663fee9244562e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleCloudSystem by RM/SceneComponents/Landscape/Materials/Landscape1.mat using Guid(43952d4e7a708b0498663fee9244562e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '446e8ec379bd9297c36dce9da25fd949') in 0.022442 seconds
-  Import took 0.026143 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000378 seconds.
-  path: Assets/SimpleCloudSystem by RM/SceneComponents/Landscape/Materials/No Name.mat
-  artifactKey: Guid(166c655810f797d41b23e6d285d4e025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleCloudSystem by RM/SceneComponents/Landscape/Materials/No Name.mat using Guid(166c655810f797d41b23e6d285d4e025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f2763d992c7f207f3f20fc816192000') in 0.016392 seconds
-  Import took 0.020192 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.127157 seconds.
-  path: Assets/SimpleCloudSystem by RM/CloudSystem.prefab
-  artifactKey: Guid(36ebb9a9e2bbff843b92cc95e0cdc972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleCloudSystem by RM/CloudSystem.prefab using Guid(36ebb9a9e2bbff843b92cc95e0cdc972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f4cabf16fc2d386acd6c17d3e388f80') in 0.015443 seconds
-  Import took 0.018900 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.013287 seconds.
-  path: Assets/SimpleCloudSystem by RM/CloudSystem.prefab
-  artifactKey: Guid(36ebb9a9e2bbff843b92cc95e0cdc972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleCloudSystem by RM/CloudSystem.prefab using Guid(36ebb9a9e2bbff843b92cc95e0cdc972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f4cabf16fc2d386acd6c17d3e388f80') in 0.015660 seconds
-  Import took 0.018931 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.337522 seconds.
-  path: Assets/SimpleCloudSystem by RM/CloudSystem.prefab
-  artifactKey: Guid(36ebb9a9e2bbff843b92cc95e0cdc972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleCloudSystem by RM/CloudSystem.prefab using Guid(36ebb9a9e2bbff843b92cc95e0cdc972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31e6daf7f6d9827ab95887be13ae3a60') in 0.022601 seconds
-  Import took 0.025682 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002347 seconds.
-  path: Assets/SimpleCloudSystem by RM/CloudSystem.prefab
-  artifactKey: Guid(36ebb9a9e2bbff843b92cc95e0cdc972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleCloudSystem by RM/CloudSystem.prefab using Guid(36ebb9a9e2bbff843b92cc95e0cdc972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31e6daf7f6d9827ab95887be13ae3a60') in 0.010248 seconds
-  Import took 0.014379 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.242389 seconds.
-  path: Assets/SimpleCloudSystem by RM/CloudSystem.prefab
-  artifactKey: Guid(36ebb9a9e2bbff843b92cc95e0cdc972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleCloudSystem by RM/CloudSystem.prefab using Guid(36ebb9a9e2bbff843b92cc95e0cdc972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb38ece0ac6183e6dff44c73ae2dd94b') in 0.013765 seconds
-  Import took 0.017276 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.024550 seconds.
-  path: Assets/SimpleCloudSystem by RM/CloudSystem.prefab
-  artifactKey: Guid(36ebb9a9e2bbff843b92cc95e0cdc972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleCloudSystem by RM/CloudSystem.prefab using Guid(36ebb9a9e2bbff843b92cc95e0cdc972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb38ece0ac6183e6dff44c73ae2dd94b') in 0.014271 seconds
-  Import took 0.017531 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.899047 seconds.
-  path: Assets/SimpleCloudSystem by RM/CloudSystem.prefab
-  artifactKey: Guid(36ebb9a9e2bbff843b92cc95e0cdc972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleCloudSystem by RM/CloudSystem.prefab using Guid(36ebb9a9e2bbff843b92cc95e0cdc972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99c27ff369722442cf3d05e8580e26e3') in 0.024430 seconds
-  Import took 0.027702 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004599 seconds.
-  path: Assets/SimpleCloudSystem by RM/CloudSystem.prefab
-  artifactKey: Guid(36ebb9a9e2bbff843b92cc95e0cdc972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleCloudSystem by RM/CloudSystem.prefab using Guid(36ebb9a9e2bbff843b92cc95e0cdc972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99c27ff369722442cf3d05e8580e26e3') in 0.014782 seconds
-  Import took 0.019086 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.579269 seconds.
-  path: Assets/SimpleCloudSystem by RM/CloudSystem.prefab
-  artifactKey: Guid(36ebb9a9e2bbff843b92cc95e0cdc972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleCloudSystem by RM/CloudSystem.prefab using Guid(36ebb9a9e2bbff843b92cc95e0cdc972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c7a0d2edb7182b634c7ae0250f33bd9') in 0.018859 seconds
-  Import took 0.022801 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.011027 seconds.
-  path: Assets/SimpleCloudSystem by RM/CloudSystem.prefab
-  artifactKey: Guid(36ebb9a9e2bbff843b92cc95e0cdc972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleCloudSystem by RM/CloudSystem.prefab using Guid(36ebb9a9e2bbff843b92cc95e0cdc972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c7a0d2edb7182b634c7ae0250f33bd9') in 0.011277 seconds
-  Import took 0.014444 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.654769 seconds.
-  path: Assets/SimpleCloudSystem by RM/CloudSystem.prefab
-  artifactKey: Guid(36ebb9a9e2bbff843b92cc95e0cdc972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleCloudSystem by RM/CloudSystem.prefab using Guid(36ebb9a9e2bbff843b92cc95e0cdc972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5e326044917e2ec4f1357e7e88ea93c') in 0.016137 seconds
-  Import took 0.019961 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.011137 seconds.
-  path: Assets/SimpleCloudSystem by RM/CloudSystem.prefab
-  artifactKey: Guid(36ebb9a9e2bbff843b92cc95e0cdc972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleCloudSystem by RM/CloudSystem.prefab using Guid(36ebb9a9e2bbff843b92cc95e0cdc972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5e326044917e2ec4f1357e7e88ea93c') in 0.015731 seconds
-  Import took 0.019613 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.258225 seconds.
-  path: Assets/SimpleCloudSystem by RM/Read Me.txt
-  artifactKey: Guid(fecc3c493510c1246ac064bbd3995355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleCloudSystem by RM/Read Me.txt using Guid(fecc3c493510c1246ac064bbd3995355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe1882f255285a2a3fde02680a78e798') in 0.030889 seconds
-  Import took 0.036335 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.103093 seconds.
-  path: Assets/SimpleCloudSystem by RM/Read Me.txt
-  artifactKey: Guid(fecc3c493510c1246ac064bbd3995355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleCloudSystem by RM/Read Me.txt using Guid(fecc3c493510c1246ac064bbd3995355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe1882f255285a2a3fde02680a78e798') in 0.005231 seconds
-  Import took 0.009432 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.968915 seconds.
-  path: Assets/SimpleCloudSystem by RM/SCS.cs
-  artifactKey: Guid(255d0569599424bc6a2a5d3fc0e8c1f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleCloudSystem by RM/SCS.cs using Guid(255d0569599424bc6a2a5d3fc0e8c1f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b64fd9418fe016a72fe318088894158c') in 0.008996 seconds
-  Import took 0.012524 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.828068 seconds.
-  path: Assets/SimpleCloudSystem by RM/SCS Instructions.txt
-  artifactKey: Guid(9ce017fa49fa3924fb7687c24a64e1af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimpleCloudSystem by RM/SCS Instructions.txt using Guid(9ce017fa49fa3924fb7687c24a64e1af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51f6b2fffb878839a88dc7e0597db7fe') in 0.009995 seconds
-  Import took 0.014791 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004736 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.119 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1475 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 98.2 MB.
-System memory in use after: 97.9 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2096.
-Total: 2.739400 ms (FindLiveObjects: 0.186800 ms CreateObjectMapping: 0.050500 ms MarkObjects: 2.078700 ms  DeleteObjects: 0.422300 ms)
+  Time since last request: 1.348351 seconds.
+  path: Assets/Menu.unity
+  artifactKey: Guid(e2b2c803707aaa345965c302e52448c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu.unity using Guid(e2b2c803707aaa345965c302e52448c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04f29089b83d9d506cddbb14bdceb368') in 0.014337 seconds
+  Import took 0.020058 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
