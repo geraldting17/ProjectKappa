@@ -22,7 +22,7 @@ public class PlayerMovement : MonoBehaviour
 
     private int coinCount;
     //private bool onGround;
-
+    
     public UnityEvent OnLandEvent;
 
     public void onLanding(){
@@ -113,6 +113,11 @@ public class PlayerMovement : MonoBehaviour
         }
 
         if (other.gameObject.layer == 8){
+            ScoreCounter.instance.EndGame();
+            GameOverScript.instance.GameOverScore();//needed to attached game over script to player else game won't know which scene to go to next when trigger. 
+        }
+
+        if (other.gameObject.layer == 9){
             ScoreCounter.instance.EndGame();
             GameOverScript.instance.GameOverScore();//needed to attached game over script to player else game won't know which scene to go to next when trigger. 
         }
