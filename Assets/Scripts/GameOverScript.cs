@@ -27,6 +27,7 @@ public class GameOverScript : MonoBehaviour
 
     public void replayGame(){
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+        ScoreCounter.instance.resetScore();
     }
 
     public void quitGame(){

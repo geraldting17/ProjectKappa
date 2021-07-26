@@ -28,6 +28,10 @@ public class ScoreCounter : MonoBehaviour
         
     }
 
+
+    public void resetScore(){
+        score = 0;
+    }
     public void AddPoint(){
         score += 1;
         scoreText.text = "Score: " + score.ToString();
@@ -40,4 +44,6 @@ public class ScoreCounter : MonoBehaviour
     public int returnScore(){
         return score;
     }
+
+    
 }

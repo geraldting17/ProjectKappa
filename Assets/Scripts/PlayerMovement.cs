@@ -10,6 +10,7 @@ using UnityEngine.Events;
 public class PlayerMovement : MonoBehaviour
 {
     public Transform GroundCheckTransform;
+    public AudioSource jumpSound;
     private bool m_Grounded;            // Whether or not the player is grounded.
     private bool isJumpBoost;
     public LayerMask playerMask;
@@ -36,6 +37,8 @@ public class PlayerMovement : MonoBehaviour
 
         if (OnLandEvent == null)
 			OnLandEvent = new UnityEvent();
+
+        jumpSound = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -84,6 +87,7 @@ public class PlayerMovement : MonoBehaviour
                     isJumpBoost = false;
                 }
                 else{
+                    jumpSound.Play();
                     Vector3 forceVector = new Vector3 (0,350,0);
                     myBall.AddForce (forceVector);
                 }
@@ -138,6 +142,7 @@ public class PlayerMovement : MonoBehaviour
 
 
     private void JumpBoost(){
+        jumpSound.Play();
         Vector3 forceVector = new Vector3 (0,450,0);
         myBall.AddForce (forceVector);
     }
